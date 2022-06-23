@@ -1,0 +1,164 @@
+@font-face {
+    font-family: bol;
+    src: url(font/lemonmilk-bold.otf);
+  }
+  @font-face {
+    font-family: med;
+    src: url(font/lemonmilk-medium.otf);
+  }
+
+  @font-face {
+    font-family: bolit;
+    src: url(font/LEMONMILK-BoldItalic.otf);
+  }
+
+  @viewport{
+      zoom: 1.0;
+      width: extend-to-zoom;
+  }
+
+  @-ms-viewport{
+      width: extend-to-zoom;
+      zoom: 1.0;
+  }
+
+
+  
+.btn{
+    margin-right: 4px;
+    margin-top: 8px;
+    width:auto;
+    font-family: med;
+    background-color: #222629;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #222629;
+    cursor: pointer;
+  box-shadow: inset 0 0 0 0 #86c232;
+  -webkit-transition: ease-out 0.6s;
+  -moz-transition: ease-out 0.6s;
+  transition: ease-out 0.6s;
+}
+
+.btn:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #86c232;
+    box-shadow: inset 0 100px 0 0#86c232;
+}
+
+
+.answer{
+    margin:6px;
+    box-shadow: 20px;
+    font: 20px;
+    font-family: med;
+
+}
+b{
+    font-size: 30px;
+    color: #86c232;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: bol;
+}
+.mydiv{
+    background-color:#6b6e70;
+    padding :10px;
+    border:outset;
+    border-width: 1px;
+    margin:20px;
+    border-radius: 10px;
+    font-family: med;
+}
+.answer{
+    background-color:#474b4f;
+    padding:10px; 
+    border-radius: 50px;
+}
+
+.topdiv{
+    width: 100%;
+    height: 100px;
+    background-color: #72a137;
+
+}
+
+.img-logo{
+    width: 300px;
+    max-width: 300px;
+}
+
+@media screen and (max-width:412px){
+    .img-logo{
+        margin-left: 47px;
+        padding-top: 1px;
+        width: 85%;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .img-logo{
+        margin-left: 350px;
+        padding-top: 1px;
+        width: 32%;
+        
+    }
+}
+
+@media screen and (min-width:1050px){
+    .img-logo{
+        margin-left: 380px;
+        padding-top: 1px;
+        width: 32%;
+        
+    }
+}
+
+@media screen and (min-width:1200px){
+    .img-logo{
+        margin-left: 400px;
+        padding-top: 1px;
+        width: 32%;
+        
+    }
+}
+
+@media screen and (min-width:1300px){
+    .img-logo{
+        margin-left: 120px;
+        padding-top: 1px;
+        width: 32%;
+        
+    }
+}
+
+@media screen and (min-width:1400px){
+    .img-logo{
+        margin-left: 120px;
+        padding-top: 1px;
+        width: 32%;
+        
+    }
+}
+
+@media screen and (min-width:1920px){
+    .img-logo{
+        margin-left: 420px;
+        padding-top: 1px;
+        width: 32%;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
